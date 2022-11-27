@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Roboto:ital,wght@1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 70px;
+    /* background-color: rgb(88, 93, 95); */
+    height: 650px;
+    width: 70vw;
+}
+
+.container::before {
+    content: "";
+    background: url("../image/bg2.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 650px;
+    width: 70vw;
+    z-index: -1;
+
+}
+
+.contact {
+
+    padding: 170px 0;
+    margin: 0px 20px;
+}
+
+.contact-heading {
+    /* width: 500px; */
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    margin: 0 26px;
+}
+
+.contact-form {
+    margin: 0 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-detail input {
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 4px 5px;
+    padding: 1px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80%;
+
+    font-size: 1rem;
+}
+
+.textarea {
+    font-family: 'Baloo Chettan 2', cursive;
+    color: aliceblue;
+}
+
+#textarea1 {
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.btn input {
+    padding: 6px;
+    font-family: 'Baloo Chettan 2', cursive;
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    margin: 0 0px;
+    width: 80px;
+
+}
+
+.btn input:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+i.icon {
+    color: white;
+}
+@media screen and (max-width: 900px) and (min-width: 556px) {
+    .contact-detail input {
+       
+        font-size: 0.8rem;
+    }
+
+}
+@media screen and (max-width: 556px) and (min-width: 518px) {
+    .contact-detail input {
+       
+        font-size: 0.6rem;
+    }
+
+}
+@media screen and (max-width: 518px) and (min-width: 0px) {
+    .contact-detail input {
+       
+        font-size: 0.5rem;
+    }
+
+}
+

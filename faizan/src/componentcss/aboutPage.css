@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Roboto:ital,wght@1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.about-heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+.container-about {
+    /* background-color: black; */
+    background-image: linear-gradient(to bottom right, rgb(243, 243, 243), rgb(219, 238, 250));
+    margin: 45px auto;
+    height: 80vh;
+    width: 75vw;
+}
+.about-detail{
+    /* display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    background-color: aquamarine; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    
+    grid-gap: 20px 100px;
+    margin: 60px 90px;
+    
+}
+.about-heading1{
+    
+    color: rgb(21, 151, 211);
+}
+
+.info{
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width: 588px) and (min-width: 442px){
+    .about-detail{
+        /* display: flex;
+        justify-content: center;
+        margin: 40px 0;
+        background-color: aquamarine; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+        
+        grid-gap: 20px 100px;
+        margin: 60px 10px;
+        
+    }
+    .info{
+       font-size: 0.9rem;
+    }
+  }
+  @media screen and (max-width: 442px) and (min-width: 270px){
+    .about-detail{
+        /* display: flex;
+        justify-content: center;
+        margin: 40px 0;
+        background-color: aquamarine; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+        
+        grid-gap: 20px 20px;
+        margin: 60px 10px;
+        
+    }
+    .info{
+       font-size: 0.7rem;
+    }
+  }
+  @media screen and (max-width: 270px) and (min-width: 0px){
+    .about-detail{
+        /* display: flex;
+        justify-content: center;
+        margin: 40px 0;
+        background-color: aquamarine; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+        
+        grid-gap: 20px 10px;
+        margin: 60px 10px;
+        
+    }
+    .info{
+       font-size: 0.5rem;
+    }
+  }

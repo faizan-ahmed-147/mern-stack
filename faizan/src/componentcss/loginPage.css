@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Roboto:ital,wght@1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    margin-top: 70px;
+
+    /* background-color: rgb(88, 93, 95); */
+    height: 650px;
+    width: 70vw;
+   
+}
+
+.container::before {
+    content: "";
+    background: url("../image/bg2.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 650px;
+    width: 70vw;
+    z-index: -1;
+   
+}
+
+.login {
+    padding: 200px 0;
+    margin: 0px 50px;
+}
+
+.login-heading {
+   
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    margin: 0 26px;
+}
+
+.login-form {
+    margin: 0 6px;
+}
+
+.login-detail input {
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 4px 4px;
+    padding: 1px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30vw;
+    font-size: 1rem;
+}
+.btn input{
+    padding: 6px;
+    font-family: 'Baloo Chettan 2', cursive; 
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    margin: 0 8px;
+    width: 80px;
+
+
+}
+.btn input:hover{
+    background-color: rgb(207, 207, 207);
+}
+
+.signuplink{
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'Baloo Chettan 2', cursive; 
+    color: rgb(255, 255, 255);
+    margin: 0 11px;
+}
+.signuplink:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 556px) and (min-width: 474px){
+    .login-detail input {
+        width: 35vw;
+        font-size: 0.9rem;
+    }
+    .login-heading h2{
+   
+        font-size: 19px;
+    }
+    .btn input{
+        font-size: 13px;
+
+    }
+
+}
+@media screen and (max-width: 474px) and (min-width: 420px){
+    .login-detail input {
+        
+        width: 30vw;
+        font-size: 0.7rem;
+    }
+    .signuplink{
+        
+        font-size: 14px;
+      
+    }
+    .btn input{
+        font-size: 15px;
+
+    }
+    .login-heading h2{
+   
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 420px) and (min-width: 390px){
+    .login-detail input {
+        display: inline-block;
+        width: 30vw;
+        font-size: 0.7rem;
+    }
+    .signuplink{
+        
+        font-size: 10px;
+      
+    }
+    .btn input{
+        font-size: 12px;
+
+    }
+    i.icon {
+        font-size: 14px;
+        color: white;
+    }
+    .login-heading h2{
+   
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 390px) and (min-width: 0px){
+    .login-detail input {
+     
+        width: 25vw;
+        font-size: 0.6rem;
+    }
+    .signuplink{
+        
+        font-size: 12px;
+      
+    }
+    .btn input{
+        font-size: 12px;
+
+    }
+    i.icon {
+       
+        font-size: 14px;
+        color: white;
+    }
+    .login-heading h2{
+   
+        font-size: 17px;
+    }
+}

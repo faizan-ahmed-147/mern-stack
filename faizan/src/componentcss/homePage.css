@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Roboto:ital,wght@1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-home {
+    /* background-color: black; */
+    background-image: linear-gradient(to bottom right, rgb(243, 243, 243), rgb(219, 238, 250));
+    margin: 15px auto;
+    height: 90vh;
+    width: 95vw;
+}
+.home{
+    display: block;
+    padding: 330px 0;
+    margin: auto;
+    text-align: center;
+}
+.home-heading{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(21, 151, 211);
+    
+}
+.home-paragraph{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    
+}
